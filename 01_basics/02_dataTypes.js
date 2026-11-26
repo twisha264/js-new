@@ -20,5 +20,40 @@ let state;
 
 // object
 
-console.log(typeof undefined); // undefined
-console.log(typeof null); // object
+// console.log(typeof undefined); // undefined
+// console.log(typeof null); // object
+
+// ******* Summary *******
+
+// *** Primitive - Call by Value ***
+
+// 7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
+
+const score = 100
+const scoreValue = 100.3
+
+const isLoggedIn2 = false
+const outsideTemp = null
+let userEmail;
+
+const id = Symbol('123')
+const anotherId = Symbol('123')
+// console.log(id === anotherId);
+
+const bigNumber = 3456897125634523894545n
+
+// *** Reference (Non Primitive) ***
+
+// Array, Object, Functions 
+
+const heroes = ["abc", "defew", "ghijfk"]
+let myObj = {
+  name: "hello",
+  age: 45,
+}
+
+const myFunction = function(){
+  console.log("Hello World");
+}
+
+console.log(typeof heroes);
