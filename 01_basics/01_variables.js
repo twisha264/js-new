@@ -3,6 +3,11 @@ let accountEmail = "hello23@google.com"
 var accountPassword = "12345"
 accountCity = "Jaipur"
 
-accountId = 2
+// accountId = 2 //not allowed
+
+accountEmail = "hc@hc.com"
+accountPassword = "21212121"
+accountCity="Bengaluru"
 
 console.log(accountId);
+console.table([accountId, accountEmail, accountPassword, accountCity]);
