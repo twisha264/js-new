@@ -9,7 +9,7 @@ const temperature = 14
 // }
 
 // console.log("Excute");
-// // <, >, <=, >=, ==, !=, ===, !==
+// <, >, <=, >=, ==, !=, ===, !==
 
 // const score = 200
 
@@ -20,9 +20,9 @@ const temperature = 14
 
 // console.log(`User power: ${power}`)
 
-// const balance = 100
+const balance = 1000
 
-// if (blance > 500) console.log("test"), console.log("test2");
+// if (balance > 500) console.log("test"), console.log("test2");
 
 // if(balance < 500) {
 //   console.log("Less than 500");
@@ -34,16 +34,17 @@ const temperature = 14
 // }
 // else {
 //   console.log("Less than 1200");
-// }
-// const userLoggedIn = true
-// const debitCard = true
-// const loggedInFromGoogle = false
-// const loggedInFromEmail = true
-// if (userLoggedIn && debitCard && 2==3)
-// {
-//   console.log("Allow to buy course");
-// }
+// } 
 
-// if (loggedInFromGoogle || loggedInFromEmail) {
-//   console.log("User logged in");
-// }
+const userLoggedIn = true
+const debitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail = true
+if (userLoggedIn && debitCard && 2==3)
+{
+  console.log("Allow to buy course");
+}
+
+if (loggedInFromGoogle || loggedInFromEmail) {
+  console.log("User logged in");
+}
